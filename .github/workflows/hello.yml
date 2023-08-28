@@ -1,0 +1,15 @@
+name: First action
+on: workflow_dispatch
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    environment: test
+    steps:
+      - name: Echo message
+        run: Echo "Hello, ${{ vars.MY_NAME }}"
+
+  surname:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Surname
+        run: echo "Surname - ${{ secrets.MY_SURNAME }}"
