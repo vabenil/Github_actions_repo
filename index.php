@@ -1,5 +1,5 @@
 <?php
 
-echo "Great job! This task is done!
+echo "Great job! This demo is done!
 
 ?>
