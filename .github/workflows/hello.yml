@@ -6,7 +6,7 @@ jobs:
     environment: test
     steps:
       - name: Echo message
-        run: Echo "Hello, ${{ vars.MY_NAME }}"
+        run: echo "Hello, ${{ vars.MY_NAME }}"
 
   surname:
     runs-on: ubuntu-latest
