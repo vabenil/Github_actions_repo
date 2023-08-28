@@ -6,7 +6,7 @@ jobs:
 
     strategy:
       matrix:
-        pytho-versions: [3.8, 3.9]
+        pytho-version: [3.8, 3.9]
     steps:
       - uses: actions/checkout@v3
       - name: Set up python
