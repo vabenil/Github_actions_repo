@@ -1,1 +1,1 @@
-## Repo for learning Github actions
+### Repo for learning Github actions
