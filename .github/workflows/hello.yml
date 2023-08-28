@@ -9,6 +9,7 @@ jobs:
         run: echo "Hello, ${{ vars.MY_NAME }}"
 
   surname:
+    needs: hello
     runs-on: ubuntu-latest
     steps:
       - name: Surname
