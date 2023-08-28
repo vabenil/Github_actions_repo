@@ -1,0 +1,10 @@
+name: myfirst-action
+on: workflow_dispatch
+jobs:
+  myfirstjob:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print "Greetings"
+      run: echo "Hello students"
+    - name: Print "Cogratulations"
+      run: echo "From Accenture"
